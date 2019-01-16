@@ -7,7 +7,7 @@ class compteManager extends manager
     $query = $this->getDb()->query('SELECT * FROM compte');
     $data = $query->fetchAll(PDO::FETCH_CLASS, "Compte");
     return $data;
-  
+    var_dump($data);
   }
 
   //ajouter un nouveau compte
