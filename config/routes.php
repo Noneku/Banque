@@ -21,6 +21,10 @@ function getRoutes() {
     "login" => [
       "admin",
       "loginUser",
+    ],
+    "gestionCompte" => [
+      "compte",
+      "compteList"
     ]
   ];
 }
