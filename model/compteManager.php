@@ -44,8 +44,6 @@ class compteManager extends manager
     $request->closeCursor();
     return $result;
   }
-
-
 }
 
 ?>
