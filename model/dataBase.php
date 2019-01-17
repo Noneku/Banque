@@ -3,7 +3,7 @@
  * Class to connect to the data base
  */
 class dataBase {
-  const host  = "";
+  const host  = "loalhost";
   const dbName = "";
   const login = "";
   const mdp = "";
