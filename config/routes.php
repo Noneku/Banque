@@ -25,6 +25,10 @@ function getRoutes() {
     "gestionCompte" => [
       "compte",
       "compteList"
+    ],
+    "ajouterCompte" => [
+      "ajoutCompte",
+      "formAjoutCompte"
     ]
   ];
 }
