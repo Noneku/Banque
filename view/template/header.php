@@ -10,3 +10,12 @@
     <title></title>
   </head>
   <body>
+    <header>
+        <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">ICBC</h1>
+          <p class="lead">Accepte que des grandes personnalités, par ici la monnaie</p>
+        </div>
+      </div>
+    </header>
+    <main>
