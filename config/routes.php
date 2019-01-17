@@ -15,16 +15,23 @@
 function getRoutes() {
   return [
     "" => [
-      "exemple",
-      "welcome"
-    ],
-    "login" => [
-      "admin",
-      "loginUser",
+      "compte",
+      "compteList"
     ],
     "gestionCompte" => [
       "compte",
       "compteList"
+    ],
+    "ajouterCompte" => [
+      "compte",
+      "formAjoutCompte"
+    ],
+    "supprimerCompte" => [
+      "compte",
+      "supprimerCompte",
+      [
+        "id" =>["int"]
+      ]
     ]
   ];
 }

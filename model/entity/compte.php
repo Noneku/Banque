@@ -1,43 +1,39 @@
 <?php
 
-  class Compte {
+  class compte extends entity {
 
     //Attributs
-    protected $id;
     protected $nom;
     protected $somme;
 
     //Constructeur
-    public function __construct(){
-      
+    public function __construct($data = null){
+      //Permet d'hydrater mon objet
+      if($data){
+        $this->hydrate($data);
+      }
     }
 
     //Methodes
 
     //Setter
-    public function setId(int $id){
-      $this->id = $id;
-    }
 
-    public function setNom(string $nom){
+    public function setNom($nom){
       $this->nom = $nom;
     }
 
-    public function setSomme(int $somme){
+    public function setSomme($somme){
       $this->somme = $somme;
     }
 
     //Getter
-    public function getId(){
-      $this->id;
-    }
 
     public function getNom(){
-      $this->nom;
+      return $this->nom;
     }
 
     public function getSomme(){
-      $this->somme;
+      return $this->somme;
     }
 
     //Methodes Actions
