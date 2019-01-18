@@ -1,6 +1,7 @@
 <?php
 require "template/header.php";
  ?>
+ <a class="btn btn-primary mb-1 text-light" <?php setHref("crediterCompte"); ?> role="button">Créditer Compte</a>
  <a class="btn btn-primary mb-1" <?php setHref("ajouterCompte"); ?> role="button">Ajouter un compte</a>
 
  <table class="table">

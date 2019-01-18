@@ -26,6 +26,10 @@ function getRoutes() {
       "compte",
       "formAjoutCompte"
     ],
+    "crediterCompte" => [
+      "compte",
+      "crediterCompte"
+    ],
     "supprimerCompte" => [
       "compte",
       "supprimerCompte",

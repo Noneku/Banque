@@ -42,8 +42,8 @@
 
     }
 
-    public function verserSommes(){
-
+    public function verserSommes($ajout){
+      $this->somme += $ajout;
     }
 
     public function virerSommes(){
