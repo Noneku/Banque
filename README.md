@@ -10,7 +10,7 @@ Compétences acquises :
 - Hydrater ses objets
 - Typer ses arguments
 
-Fonctionnalitées : 
+Fonctionnalités : 
 
 • Créer un nouveau compte bancaire (avec minimum un id, un nom et une somme par défaut
   supérieure à 50 euros)
